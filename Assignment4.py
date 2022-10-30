@@ -3,7 +3,6 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 df = pd.read_csv('GDP and Electricity Cnsumption in Suzhou.csv')
-print(df)
 
 plt.figure()
 plt.plot(df['year'], df['GDP/(billion yuan)'],
